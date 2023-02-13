@@ -1,0 +1,32 @@
+.toggle {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background: #af94b7;
+}
+
+.toggle__wrapper {
+    padding: 20px;
+    width: 550px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #a136c1;
+}
+.toggle__title{
+    font-size: 30px;
+    color: #fff;
+}
+.toggle__btn{
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+.toggle__info-first,.toggle__info-second{
+    color: bisque;
+    text-decoration: underline;
+}
